@@ -1,0 +1,11 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+
+    font-style: 20px;
+    color: black;
+    font-family: 'Hi Melody';
+
+    background-color: #EEEDE6;
+}
