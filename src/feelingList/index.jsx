@@ -19,7 +19,7 @@ class FeelingList extends React.Component {
   renderBtnMonthList() {
     const btnList = [];
 
-    for (let i = 1; i < 13; i += 1) {
+    for (let i = 1; i < 12; i += 1) {
       const btn = (
         <BtnMonth
           month={i}
@@ -37,7 +37,7 @@ class FeelingList extends React.Component {
     return (
       <div className="feeling_list">
         <div className="header">
-          {this.renderBtnMonthList}
+          {this.renderBtnMonthList()}
         </div>
       </div>
     );
